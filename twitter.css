@@ -1,0 +1,68 @@
+/*tweets display*/
+
+
+div [data-type='hashtag'] {
+
+background: #efefee;
+font-size: 28px;
+cursor: pointer;
+color: #777;
+
+
+}
+div [data-type='hashtag']:hover {
+
+color: #434343;
+
+}
+
+
+#twitter{
+
+	padding: 0px;
+overflow: auto;
+height: 0px;
+}
+
+.tweet{
+
+	overflow:auto;
+	border-bottom:1px solid #cdcdcd ;
+	padding:5px;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+
+
+}
+.tweet:hover{
+	overflow:auto;
+	border-bottom:1px solid #cdcdcd ;
+	background:#efefee;
+}
+
+
+.tweet_img{
+	display:block;
+	margin-top:0;
+	float: left;
+	}
+	.tweet-header{
+
+		display:block;
+	    margin: 0;
+	}
+	.tweet-header a {
+
+		font-weight: bold;
+		margin-right:5px;
+
+	}
+
+	.tweet-text {
+
+		margin: 5px 0;
+		font-size: 0.9em;
+		text-align: justify;
+		}
